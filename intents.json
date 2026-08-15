@@ -1,0 +1,49 @@
+{
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": ["hi", "hey", "hello", "good morning", "good evening", "what's up", "yo", "hey there", "howdy"],
+      "responses": ["Hello! How can I help you today?", "Hi there! What can I do for you?", "Hey! Good to see you."]
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["bye", "goodbye", "see you later", "see ya", "take care", "catch you later", "i'm leaving"],
+      "responses": ["Goodbye! Have a great day.", "See you later!", "Take care, bye!"]
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["thanks", "thank you", "thanks a lot", "appreciate it", "thank you so much"],
+      "responses": ["You're welcome!", "Anytime!", "Happy to help!"]
+    },
+    {
+      "tag": "name",
+      "patterns": ["what is your name", "who are you", "what should i call you", "your name please"],
+      "responses": ["I'm a chatbot built with Python and scikit-learn.", "You can call me PyBot!"]
+    },
+    {
+      "tag": "hours",
+      "patterns": ["what are your hours", "when are you open", "opening hours", "what time do you open", "what time do you close"],
+      "responses": ["We're open from 9 AM to 6 PM, Monday through Saturday.", "Our hours are 9-6, Mon-Sat."]
+    },
+    {
+      "tag": "help",
+      "patterns": ["can you help me", "i need help", "help me please", "i have a problem", "support"],
+      "responses": ["Of course! Tell me more about the issue you're facing.", "I'm here to help — what do you need?"]
+    },
+    {
+      "tag": "weather",
+      "patterns": ["what's the weather like", "is it raining", "weather today", "will it rain today", "how's the weather"],
+      "responses": ["I can't check live weather yet, but you could try a weather API for that!", "I don't have live weather access, sorry!"]
+    },
+    {
+      "tag": "joke",
+      "patterns": ["tell me a joke", "say something funny", "make me laugh", "know any jokes"],
+      "responses": ["Why do programmers prefer dark mode? Because light attracts bugs!", "I told my computer I needed a break, and it said no problem — it froze immediately."]
+    },
+    {
+      "tag": "fallback",
+      "patterns": [],
+      "responses": ["I'm not sure I understand. Could you rephrase that?", "Sorry, I didn't quite get that. Can you say it differently?"]
+    }
+  ]
+}
